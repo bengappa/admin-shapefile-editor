@@ -1,6 +1,5 @@
 #------------------------------------------------------------------------
 #       Import Shapefile Admin (1.1)
-#       Made for the C-MAP Minneapolis QC Team
 #
 #       Benjamin Gappa
 #       5/22/17
@@ -35,7 +34,7 @@ username = str(arcpy.GetParameterAsText(0))
 pw = str(arcpy.GetParameterAsText(1))
 waterbody_id = int(arcpy.GetParameterAsText(2))
 #API Variables
-url = str("http://admin.digitalmarine.com/api/GisPlugin/WaterbodyExportWkt")
+url = str(# Enter API URL here)
 heads = {'Content-type': 'application/json'}
 
 # Dictionary
